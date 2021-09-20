@@ -1,6 +1,6 @@
-// SR:TTR Autosplitter/loadremover by Mr. Mary and hoxi(hoxiak)(hoxi___)(hoxiu_) and mossfiss
+// SR:TTR Autosplitter/loadremover by Mr. Mary and hoxi(hoxiak)(hoxi___)(hoxiu_) and mossfis
 // original script and solutions by Mr. Mary and hoxi(hoxiak)(hoxi___)(hoxiu_)
-// updated to work with Saints Row 3:Remastered (GOG 1.0.6.1_(64bit)_(47287)) by mossfiss
+// updated to work with Saints Row 3:Remastered (GOG 1.0.6.1_(64bit)_(47287)) by mossfis
 // - autostart
 // - splitting on mission/activity end
 // - splitting on cutscenes
