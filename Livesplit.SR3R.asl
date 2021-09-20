@@ -18,9 +18,9 @@ state("SRTTR")
 	int missionPass : 0x11B7550;
 	int isLoad : 0x10D4754;
 	// collectibles
-    int sexdolls : 0x161FDE0;
-    int photoops : 0x161FE50;
-    int moneypallet : 0x161FD70;
+    	int sexdolls : 0x161FDE0;
+    	int photoops : 0x161FE50;
+    	int moneypallet : 0x161FD70;
    	int drugpackage : 0x161FD00;
 	// activities
 	int escort : 0x1620080;
