@@ -22,8 +22,9 @@ I have added more resolutions:
 Big thanks for ASL script examples.
 
 Known bugs:
-- [ ] It can split on loading after restart.
+- [ ] It can split on loading after restart[^1].
 
-- [ ] Split depends on resolution[^1].
+- [ ] Split depends on resolution[^2].
 
-[^1]: *With better coding knowledge there is a better address to mitigate this dependency.*
+[^1]: *False split.*
+[^2]: *With better coding knowledge there is a better address to mitigate this dependency.*
