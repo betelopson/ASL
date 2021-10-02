@@ -1,6 +1,6 @@
 **IMPORTANT NEWS**
  <hr>
-Saints Row The Third Remastered works with all version of the game, including:
+Autosplitter works with all version of Saints Row The Third Remastered, including:
 
 - Good Old Games,
 - Epic Games Store,
