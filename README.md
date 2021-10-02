@@ -1,6 +1,6 @@
 **IMPORTANT NEWS**
  <hr>
-It works with all version of the game, including:
+Saints Row The Third Remastered works with all version of the game, including:
 
 - Good Old Games,
 - Epic Games Store,
