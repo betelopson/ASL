@@ -5,7 +5,8 @@ Autosplitter works with all versions of Saints Row The Third Remastered, includi
 
 - Good Old Games,
 - Epic Games Store,
-- Steam.
+- Steam,
+- Splitter automatically switches, recognizes versions to work with.
 
 I have added more resolutions:
 
@@ -17,8 +18,6 @@ I have added more resolutions:
 - 768p,
 - 720p,
 - 480p (New).
-
-Splitter automatically switches versions to work with.
 
 Big thanks for ASL script examples.
 
