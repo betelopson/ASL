@@ -27,4 +27,4 @@ Known bugs:
 - [ ] Split depends on resolution[^2].
 
 [^1]: *False split.*
-[^2]: *With better coding knowledge there is a better address to mitigate this dependency.*
+[^2]: *There is a memory address to mitigate this dependency.*
