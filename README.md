@@ -18,4 +18,13 @@ I have added more resolutions:
 - 720p,
 - 480p (New).
 
+Splitter automatically switches versions to work with.
+
 Big thanks for ASL script examples.
+
+Known bugs:
+- [ ] It can split on loading after restart.
+
+- [ ] Split depends on resolution[^1].
+
+[^1]: *With better coding knowledge there is a better address to mitigate this dependency.*
