@@ -346,6 +346,11 @@ init
 		// Module Size: 57794560
 		version = "v1.0.0.1 (Steam)";
 	}
+	else if (hash == "C1FBAF875FB44D41508ACD3D7DBF69B7")
+	{
+		// Module Size: 57794560
+		version = "v1.0.0.1 (Steam)";
+	}
 	// Fallback for different versions
 	else if (moduleSize == 58175488)
 	{
