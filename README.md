@@ -21,7 +21,7 @@ I have added more resolutions:
 
 Big thanks for ASL script examples.
 
-Important notice! If I'll know any different version of the game I'm going to update the code automatically without notice. I think this is not going to happen because we use game exe and that file looks like never changes and I have already found all the versions. Also a little reminder I think gog version of the game is the least stable, it can crash after Pierce's Guardian Angel or if you choice certain characters close to the end the game is going to be unable to load assets in Stop All The Downloading.
+Important notice! If I'll know any different version of the game I'm going to update the code automatically without notice. I think this is not going to happen because we use game exe and that file looks like never changes and I have already found all the versions. Reminder I think gog version of the game is the least stable. It can crash after Pierce's Guardian Angel. Certain characters brakes the game and it will unable to load assets in Stop All The Downloading.
 
 Known bugs:
 - [ ] It can split on loading after restart[^1].
