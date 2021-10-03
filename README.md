@@ -21,6 +21,8 @@ I have added more resolutions:
 
 Big thanks for ASL script examples.
 
+Important notice! If I'll know any different version of the game I'm going to update the code automatically without notice.
+
 Known bugs:
 - [ ] It can split on loading after restart[^1].
 
