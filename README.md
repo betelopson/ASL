@@ -21,7 +21,7 @@ I have added more resolutions:
 
 Big thanks for ASL script examples.
 
-Important notice! If I'll know any different version of the game I'm going to update the code automatically without notice.
+Important notice! If I'll know any different version of the game I'm going to update the code automatically without notice. I think this is not going to happen because we use game exe and that file looks like never changes and I have already found all the versions.
 
 Known bugs:
 - [ ] It can split on loading after restart[^1].
