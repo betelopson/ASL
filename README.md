@@ -22,7 +22,7 @@ I have added more resolutions:
 - 720p,
 - 480p (New).
 
-If you add to LiveSplit the Scriptable Auto Splitter in Layaout Editor, you can check the version in it, you don't need to use it, just to check the version.
+If you add to LiveSplit the Scriptable Auto Splitter modul in Layout Editor, you can check game version in it, you don't need to use it, just to check the version.
 
 Big thanks for ASL script examples.
 
