@@ -7,7 +7,7 @@
 // - splitting on cutscenes
 // - final split (slightly delayed at times)
 
-state("SRTTR", "v1.0.0.1 (GoG)")		
+state("SRTTR", "v1.0.6.1 (GoG)")		
 {
 	string32 currentDialogue : 0x2569510;
 	string32 debugString : 0x1B39914;           // cutscenes and credit splits
@@ -367,7 +367,7 @@ init
 	if (hash == "9A173260A061E37D0AF97CC3727954B7")
 	{
 		// Module Size: 58175488
-		version = "v1.0.0.1 (GoG)";
+		version = "1.0.6.1 (GoG)";
 	}
 	else if (hash == "17BB2948A52523C6147B5940DB41A33D")
 	{
@@ -397,7 +397,7 @@ init
 	// Fallback for different versions
 	else if (moduleSize == 58175488)
 	{
-		version = "v1.0.0.1 (GoG)";
+		version = "v1.0.6.1 (GoG)";
 	}
 	else if (moduleSize == 58245120)
 	{
