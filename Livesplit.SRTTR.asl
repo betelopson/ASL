@@ -43,7 +43,7 @@ state("SRTTR", "v1.0.0.1 (GoG)")
 state("SRTTR", "v1.0.0.1 (EGS)")		
 {
 	string32 currentDialogue : 0x257A380;
-	string32 debugString : 0x1B395C4;           // cutscenes and credit splits
+	string32 debugString : 0x1B395C4;
 	string32 missionBank : 0x15B3655;
 	string13 voiceLine : 0x257A380;
 	int totalMissions : 0x161F1E0;
@@ -73,10 +73,10 @@ state("SRTTR", "v1.0.0.1 (EGS)")
 	int assassinations: 0x161F720;
 }
 
-state("SRTTR", "v1.0.0.1 (Steam)")		
+state("SRTTR", "v20210510 (Steam)")		
 {
 	string32 currentDialogue : 0x250FED0;
-	string32 debugString : 0x1AE1094;           // cutscenes and credit splits
+	string32 debugString : 0x1AE1094;
 	string32 missionBank : 0x155B655;
 	string13 voiceLine : 0x250FED0;
 	int totalMissions : 0x15C7200;
@@ -104,6 +104,39 @@ state("SRTTR", "v1.0.0.1 (Steam)")
 	int cutsceneCheck : 0x15AC454;
 	// non-essential collectibles
 	int assassinations: 0x15C7740;
+}
+
+state("SRTTR", "v20211028 (Steam)")		
+{
+	string32 currentDialogue : 0x288EF40;
+	string32 debugString : 0x1AE2094;
+	string32 missionBank : 0x155C655;
+	string13 voiceLine : 0x288EF40;
+	int totalMissions : 0x15C8200;
+	int totalActivities : 0x15C8270;
+	int runStart : 0x11791E4;
+	int missionPass : 0x115F550;
+	int isLoad : 0x107C754;
+	// collectibles
+	int sexdolls : 0x15C8580;
+	int photoops : 0x15C85F0;
+	int moneypallet : 0x15C8510;
+	int drugpackage : 0x15C84A0;
+	// activities
+	int escort : 0x15C8820;
+	int genki : 0x15C8A50;
+	int tank : 0x15C89E0;
+	int heli : 0x15C8AC0;
+	int fraud : 0x15C8970;
+	int trafficking : 0x15C8890;
+	int mayhem : 0x15C8C10;
+	int trail : 0x15C8B30;
+	int snatch : 0x15C8BA0;
+	// cutscene stuff
+	bool isCutscene : 0x107C88C;
+	int cutsceneCheck : 0x15AD454;
+	// non-essential collectibles
+	int assassinations: 0x15C8740;
 }
 
 startup
@@ -344,12 +377,22 @@ init
 	else if (hash == "1DE6296B4834C5C992CFBF62795D663A")
 	{
 		// Module Size: 57794560
-		version = "v1.0.0.1 (Steam)";
+		version = "v20210510 (Steam)";
 	}
 	else if (hash == "C1FBAF875FB44D41508ACD3D7DBF69B7")
 	{
 		// Module Size: 57794560
-		version = "v1.0.0.1 (Steam)";
+		version = "v20210510 (Steam)";
+	}
+	else if (hash == "B8EA6BBE9F5C9C8F8079C5966A115B98")
+	{
+		// Module Size: 58036224
+		version = "v20211028 (Steam)";
+	}
+	else if (hash == "A4B0E11CCC1435E891596DDCB6476F44")
+	{
+		// Module Size: 58036224
+		version = "v20211028 (Steam)";
 	}
 	// Fallback for different versions
 	else if (moduleSize == 58175488)
@@ -362,7 +405,11 @@ init
 	}
 	else if (moduleSize == 57794560)
 	{
-		version = "v1.0.0.1 (Steam)";
+		version = "v20210510 (Steam)";
+	}
+	else if (moduleSize == 58036224)
+	{
+		version = "v20211028 (Steam)";
 	}
 }
 
