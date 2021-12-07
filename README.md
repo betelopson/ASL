@@ -22,6 +22,8 @@ I have added more resolutions:
 - 720p,
 - 480p (New).
 
+If you add to LiveSplit the Scriptable Auto Splitter in Layaout Editor, you can check the version in it, you don't need to use it, just to check the version.
+
 Big thanks for ASL script examples.
 
 Important notice! If I'll know any different version of the game I'm going to update the code automatically without notice. I think this is not going to happen because we use game exe and that file looks like never changes and I have already found all the versions. Reminder I think gog version of the game is the least stable. It can crash after Pierce's Guardian Angel. Certain characters brake the game and it will unable to load assets after Stop All The Downloading so you end up stuck in air as you turn to start deckers.die.
