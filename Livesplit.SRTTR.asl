@@ -40,7 +40,7 @@ state("SRTTR", "v1.0.6.1 (GoG)")
 	int assassinations: 0x161FFA0;
 }
 
-state("SRTTR", "v1.0.0.1 (EGS)")		
+state("SRTTR", "v20210502 (EGS)")		
 {
 	string32 currentDialogue : 0x257A380;
 	string32 debugString : 0x1B395C4;
@@ -71,6 +71,39 @@ state("SRTTR", "v1.0.0.1 (EGS)")
 	int cutsceneCheck : 0x1604444;
 	// non-essential collectibles
 	int assassinations: 0x161F720;
+}
+
+state("SRTTR", "v20211028 (EGS)")		
+{
+	string32 currentDialogue : 0x28F71E0;
+	string32 debugString : 0x1B3A5C4;
+	string32 missionBank : 0x15B4655;
+	string13 voiceLine : 0x28F71E0;
+	int totalMissions : 0x16201E0;
+	int totalActivities : 0x1620250;
+	int runStart : 0x11D2174;
+	int missionPass : 0x11B8550;
+	int isLoad : 0x10D5754;
+	// collectibles
+	int sexdolls : 0x1620560;
+	int photoops : 0x16205D0;
+	int moneypallet : 0x16204F0;
+	int drugpackage : 0x1620480;
+	// activities
+	int escort : 0x1620800;
+	int genki : 0x1620A30;
+	int tank : 0x16209C0;
+	int heli : 0x1620AA0;
+	int fraud : 0x1620950;
+	int trafficking : 0x1620870;
+	int mayhem : 0x1620BF0;
+	int trail : 0x1620B10;
+	int snatch : 0x1620B80;
+	// cutscene stuff
+	bool isCutscene : 0x10D588C;
+	int cutsceneCheck : 0x1605444;
+	// non-essential collectibles
+	int assassinations: 0x1620720;
 }
 
 state("SRTTR", "v20210510 (Steam)")		
@@ -372,7 +405,12 @@ init
 	else if (hash == "17BB2948A52523C6147B5940DB41A33D")
 	{
 		// Module Size: 58245120
-		version = "v1.0.0.1 (EGS)";
+		version = "v20210502 (EGS)";
+	}
+	else if (hash == "CD382D6029170976330B437AFE49FC70")
+	{
+		// Module Size: 58236928
+		version = "v20211028 (EGS)";
 	}
 	else if (hash == "1DE6296B4834C5C992CFBF62795D663A")
 	{
@@ -401,7 +439,11 @@ init
 	}
 	else if (moduleSize == 58245120)
 	{
-		version = "v1.0.0.1 (EGS)";
+		version = "v20210502 (EGS)";
+	}
+	else if (moduleSize == 58236928)
+	{
+		version = "v20211028 (EGS)";
 	}
 	else if (moduleSize == 57794560)
 	{
