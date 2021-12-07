@@ -1,6 +1,6 @@
 **IMPORTANT NEWS**
 
-Update #1, 2021.12.07: Steam version has gotten an update (2021.10.28), so thinkering was required to make it work with autosplitter again. Also I changed up some things, I haven't gotten time to do a full run and test it fully, but from the previous expriences I know some of the traps.
+Update #1, 2021.12.07: Steam version has gotten an update (2021.10.28), so tinkering was required to make it work with autosplitter again. Also I changed up some things, I haven't gotten time to do a full run and test it fully, but from the previous expriences I know some of the traps.
 
 <hr>
  
