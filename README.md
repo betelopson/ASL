@@ -1,6 +1,7 @@
 **IMPORTANT NEWS**
 
 Update #1, 2021.12.07: Steam and EGS versions have gotten an update (2021.10.28), so tinkering was required to make them work with autosplitter again. Also I changed up some things. I haven't gotten time to do full runs and test them fully, but from the previous expriences I know some of the traps and everything seems perfect.
+Update #2, 2021.12.08: I used the incorrect heli addresses in the updated version, so the splitter double splitted at heli assault, it is fixed now, no more double splits at that point. Note: You need to search for HELI ASSAULT not GUARDIAN ANGEL address, that is true the split is named heli assault, but we finish a guardian angel activity at that point not heli assault which I think is Kinzie's mission, that is why it splits there unnecesarily.
 
 <hr>
  
