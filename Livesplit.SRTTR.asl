@@ -93,7 +93,7 @@ state("SRTTR", "v20211028 (EGS)")
 	int escort : 0x1620800;
 	int genki : 0x1620A30;
 	int tank : 0x16209C0;
-	int heli : 0x1620AA0;
+	int heli : 0x16208E0;
 	int fraud : 0x1620950;
 	int trafficking : 0x1620870;
 	int mayhem : 0x1620BF0;
@@ -159,7 +159,7 @@ state("SRTTR", "v20211028 (Steam)")
 	int escort : 0x15C8820;
 	int genki : 0x15C8A50;
 	int tank : 0x15C89E0;
-	int heli : 0x15C8AC0;
+	int heli : 0x15C8900;
 	int fraud : 0x15C8970;
 	int trafficking : 0x15C8890;
 	int mayhem : 0x15C8C10;
